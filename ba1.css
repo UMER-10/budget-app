@@ -1,0 +1,65 @@
+
+body {
+  background: linear-gradient(45deg,  #7ef4ff, #001d26);
+  font-family: 'Alfa Slab One';
+  margin: 20px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    
+    background: linear-gradient(45deg, #94ffdb, #3e7a6f);
+
+    border-radius: 25px;
+
+}
+
+input, button {
+
+ margin-bottom: 10px;
+
+}
+#table{
+    background: linear-gradient(45deg, #2315a3, #32d0eb);
+    
+    border-radius: 12px;
+    padding-inline: 20px;
+}
+
+
+
+table {
+
+
+  width: 100%;
+  border-collapse: collapse;
+
+
+
+}
+
+th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+
+
+
+}
+
+#remainingBudget {
+
+        font-weight: bold;
+        margin-top: 20px;
+
+
+
+}
+#bS{
+    
+
+    height: 164px;
+    
+    
+}

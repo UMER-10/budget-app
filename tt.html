@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="ba1.css">
+  <script src="app.js" ></script>
+  <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+</head>
+<body  style="background-color: aquamarine; ">
+   <div>
+    <h1 style="text-align: center; ">Expense Tracker</h1>
+   </div>
+
+  <div id="bS">
+
+
+    <h2 style="text-align: center; margin: 32px; padding-top: 9px;">Add Monthly Budget</h2>
+
+    <input type="number" id="monthlyBudget" placeholder="Enter monthly budget" style="margin-left: 530px;">
+    <button style="margin-left: 1px" onclick="addBudget()">Add Budget</button>
+    <h3 style="text-align: center;" id="totalBudget"></h3>
+</div>
+
+ 
+
+   <div id="eS">
+    <h2 style="text-align: center; border-radius: 24px; text-align: center; color: black; background: linear-gradient(45deg,#00ffcd, #100d9b);">Add Expense</h2>
+    <div style="padding-left: 350px;">
+
+    <input type="text" id="expDescription" placeholder="Enter description">
+
+    <input type="number" id="expAmount" placeholder="Enter amount">
+
+    <input type="date" id="expDate">
+    <button onclick="addExpense()" style="text-align: center;">Add Expense</button>
+   </div>
+  </div>
+
+  <div id="table">
+   <h2 style="padding-left: 270px;">Expense Data</h2>
+     <table id="expenseTable">
+      <tr>
+        <th>Description</th>
+        <th>Amount</th>
+        <th>Date</th>
+        <th>Actions</th>
+      </tr>
+    </table>
+    <p id="remainingBudget"></p>
+  </div>
+
+  <script>
+   
